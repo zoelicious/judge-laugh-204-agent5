@@ -2,6 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
+// The joke works because the "relief" deadline moves earlier, not later — the punchline reframes a shorter deadline as agility.
 const text = "We moved the deadline to Friday to relieve pressure, then leadership moved Friday to Wednesday and called it agility.";
 
 const here = dirname(fileURLToPath(import.meta.url));
